@@ -1,0 +1,22 @@
+{
+  "name": "vercel-api-demo",
+  "version": "1.0.0",
+  "description": "Serverless API demo deployed on Vercel with GitHub integration",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel",
+    "deploy:prod": "vercel --prod"
+  },
+  "keywords": [
+    "vercel",
+    "serverless",
+    "api",
+    "nodejs"
+  ],
+  "author": "Gurjas",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
